@@ -18,10 +18,12 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 header{
     box-sizing: border-box;
 	width:100%;
 }
+
 .inter-unique {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -29,10 +31,13 @@ header{
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+
 body{
+    overflow-x: hidden;
 	color:#3d5a80;
 	font: 1em "Inter";
 }
+
 header{
 	display: flex;
 	padding:2%;
@@ -42,33 +47,35 @@ header{
 	background-color:#98c1d9;
 	color:ghostwhite;
 	font-weight: 600;
-	
-	
+		
 }
+
 header .menu{
 	display: flex;
 	width:100%;
 	justify-content: flex-end;
 	
-	
 }
+
 .icon{
 	padding: 1%;
 	border-radius: 10px;
 	margin-right:1%
 
 }
+
 .icon:hover{
 	background-color: ghostwhite;
 	color:#006379;
 	
 }
+
 .search{
 	font-size: .9em;
 	display: flex;
-	
-	
+		
 }
+
 .search h3{
 	background-color: #ee6c4d;
 	padding:2%;
@@ -76,6 +83,7 @@ header .menu{
 	border-radius: 10px;
 	color:ghostwhite;
 }
+
 .search h3:hover{
 	background-color: #f7a072;
 }
@@ -89,32 +97,28 @@ input{
 	border:solid #ee6c4d;
 	background-color: ghostwhite;
 	opacity:0.75;
-	margin-left: 3%;
-	
-
-	
+	margin-left: 3%;	
 }
-
 
 .landing{
 	padding-left: 2%;
 	border-radius: 20px;
 	
 }
+
 .landing h2{
 	font: 4em "Inter";
-
-
 }
+
 .landing h3{
 	font: 4em "Inter";
 	font-weight: 4;
 	
 }
+
 main{
 	background-color: ghostwhite;
-	padding:3%;
-	
+	padding:3%;	
 }
 
 h1{
@@ -122,17 +126,18 @@ h1{
 	margin: 3%;
 	font-weight:500;
 }
+
 h3{
 	font: 1em"Inter";
 	
 
 }
+
 .logo{
 	display:flex;
 	align-items: center;
 	font: 2em "Inter";
 	margin-left:3%;
-	
 	
 }
 
@@ -145,27 +150,24 @@ h3{
 	display: flex;
 	padding:2%;
 	
-	
-
-	
 }
+
 .row .container img{
 	border-radius: 20px;
 	scroll-snap-align: center;
 	transition: scale 400ms;
 	
-	
 }
+
 .row .container:hover img{
 	scale:105%;
 	border-radius:20px;
-
 }
-
 
 .profile{
 	background-color: ghostwhite;
 }
+
 .profile h1{
     font:2em "Inter";
     color: #ee6c4d;
@@ -181,6 +183,7 @@ aside .circle{
 	margin-bottom: 5%;
 	
 }
+
 aside{
     display: flex;
     float:left;
@@ -190,18 +193,15 @@ aside{
 	justify-content: space-between;
 	background-color: rgb(244, 244, 244);
 	padding-bottom:80%;
-	
-	
-	
-
-
-    
+	  
 }
+
 aside p{
 	text-align: center;;
 	color:#3d5a80;
 	margin-bottom:40%
 }
+
 aside h3{
 	margin:7%;
 	margin-bottom: 10%;
@@ -209,14 +209,13 @@ aside h3{
 	padding-left: 17%;
 	
 }
+
 aside .menu:hover{
 	background-color: #cae9ff;
 	border-top-right-radius:10px;
 	border-bottom-right-radius: 10px;
 	
-
 }
-
 
 .profile .flex-container{
     display: flex;
@@ -225,6 +224,7 @@ aside .menu:hover{
     max-width:76%;
 	margin-right:4%;
 }
+
 .profile .flexbox{
     display:flex;
     font:1.5em "Inter";
@@ -248,6 +248,7 @@ aside .menu:hover{
     font-weight: 300;
     
 }
+
 .profile .flexbox:nth-child(3){
 	display: flex;
 	width:100%;
@@ -260,6 +261,7 @@ aside .menu:hover{
 
 	
 }
+
 .percent1, .percent2, .percent3, svg, circle {
 	height:100%;
 	width:100%;
@@ -267,6 +269,7 @@ aside .menu:hover{
 	
 	
 }
+
 .flexbox circle{
 	fill: none;
 	stroke:ghostwhite;
@@ -277,6 +280,7 @@ aside .menu:hover{
 	
 	
 }
+
 .percent1 circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 75) / -100);
     stroke: #ee6c4d;
@@ -284,6 +288,7 @@ aside .menu:hover{
     animation-delay: 5s;
 	
 }
+
 .percent3 circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 56) / -100);
     stroke: #ee6c4d;
@@ -297,6 +302,7 @@ aside .menu:hover{
         stroke-dashoffset: 0;
        }
 }
+
 .time{
 	display: flex;
     flex-direction: row;
@@ -320,13 +326,13 @@ aside .menu:hover{
 	height: 80%;
 	text-align: center;
 	padding-bottom: 5%;
-	
-	
-	
+		
 }
+
 .time section:nth-child(3){
 	margin-right:0;
 }
+
 section h2{
 	margin-bottom:10%;
 }
@@ -339,26 +345,24 @@ section h2{
 	stroke-dasharray: 440;
 	stroke-linecap: round;
 	transform: translate(10%, 8%);
-	
-	
-	
-	
-	
+		
 }
+
 .percent2 circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 90) / -100);
     stroke: #ee6c4d;
     animation: percent 1.8s linear;
     animation-delay: 5s;
-	
-	
+		
 }
+
 .percent .number {
 	display: flex;
     color: ghostwhite;
 	justify-content: center;
 	
 }
+
 .percent h2 {
     font-size: 2em;
 }
@@ -389,11 +393,12 @@ svg text{
 	color:#3d5a80;
 	padding-bottom: 4%;
 	
-
 }
+
 .leaderboard h3{
     text-align: center;
 }
+
 .profile table {
     width: 100%;
     padding:3%;
@@ -412,6 +417,7 @@ td {
     padding: 3%;
 
 }
+
 .leaderboard .number{
 	font-size: .8em;
 }
@@ -439,6 +445,7 @@ td {
     padding:8%;
 
 }
+
 .profile .flexbox:nth-child(5){
 	display: flex;
 	flex-direction: column;
@@ -450,6 +457,7 @@ td {
 	color: ghostwhite;
 
 }
+
 .challenge{
 	font-size: 1em;
 	background-color: #ee6d4de2;
@@ -459,16 +467,18 @@ td {
 	text-align: center;
 	transition: scale 400ms;
 	padding:4%;
-
 	
 }
+
 .challenge h3{
 	font-weight: 200;
 }
+
 .challenge:hover{
 	background-color: #ee6d4d;
 	scale:102%;
 }
+
 .profile .flexbox:nth-child(6){
 	padding-bottom:3%;
 	color:#ee6c4d;
@@ -476,6 +486,7 @@ td {
 	width:100%;
 	
 }
+
 .profile .flexbox:nth-child(7){
 	display: flex;
 	margin-bottom: 10%;
@@ -483,9 +494,8 @@ td {
 	text-align: center;
 	height:100%;
 	
-	
-	
 }
+
 .recents{
 	flex-wrap: wrap;
 	width:20%;
@@ -497,22 +507,27 @@ td {
 	justify-content: center;
 	margin-right:3%;
 }
+
 .recents h3{
 	font-weight: 200;
 }
+
 .recents img{
 	margin-top:8%;
 	border-radius: 20px;
 	
 }
+
 .recents:hover{
 	background-color:#abdbfd;
 	scale:102%;
 }
+
 .title{
 	margin:3%;
 	font-size:2em
 }
+
 .set label{
 	margin:3%;
 
@@ -523,3 +538,187 @@ td {
 	background-color: #cae9ff;
 	padding:2%
 }
+
+.icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Profile */
+@media (max-width: 801px) {
+    
+.flexbox {
+    flex-direction: column;
+    padding-right: 15px;       
+}
+    
+aside {
+    width: 60%;   
+    border-radius:20px;
+    text-align: center;
+    padding: -5px;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+p {
+    margin-top: 10px; 
+    margin-right: 40px;
+}
+
+.menu {
+    margin-top: 5px;
+    justify-content: center;
+    margin-right: 50px;
+}  
+
+.recents {
+    width: 250px;
+    padding: 2%;
+    margin: 2%;
+    text-align: center; 
+}  
+    
+.leaderboard{
+    width: 250px;
+    padding: 10%;
+    margin: 10%;
+    text-align: center; 
+}
+    
+.challenge{
+    width: 250px;
+    float:left;
+    padding: 60px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+    margin-right: 50px;
+}
+    
+.challenge .p, .h3{
+    text-align: center;
+    }
+    
+h1, h2, h3, h4 {
+    font-size: 12px;
+}
+
+intro{
+    text-align: center;
+    
+}
+    
+.intro h2 {
+    font-size: 18px;
+}
+    
+.intro h3{
+    font-size: 5px;
+}
+
+td {    
+    margin: 25px;
+}
+    
+.time {
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+}
+
+.time section {
+    padding: 90px;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.percent1,.percent2,.percent3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.percent1 svg,.percent2 svg,.percent3 svg {
+    width: 180px; 
+    height: 180px;
+}
+
+.percent1 text,.percent2 text,.percent3 text {
+    font-size: 15px; 
+}
+   
+/*Create */
+@media (max-width: 803px) {
+  
+.title {
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-size: 40px;
+}      
+        
+.set {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 350px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width:100%;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    
+}
+    
+.input-group input {
+    padding: 18px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+   }
+  
+}
+    
+/*Nav links */    
+@media (max-width: 768px) {
+    
+header {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.icon {
+    padding: 10px 20px;
+}
+
+
+.logo h3{
+    font-size: 25px;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
